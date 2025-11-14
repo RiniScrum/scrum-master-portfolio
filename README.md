@@ -84,8 +84,6 @@ Documents describing:
 ## 📊 Tools & Platforms
 
 - **Jira / Confluence**  
-- **Azure DevOps**  
-- **Miro / FigJam**  
 - **ServiceNow**  
 - **MS Teams**  
 - **Slack**  
@@ -97,8 +95,8 @@ Documents describing:
 
 If you would like to collaborate, discuss opportunities, or view more of my work, feel free to connect with me on:
 
-**LinkedIn:** *Add your link here*  
-**Email:** *your email here*
+**LinkedIn: www.linkedin.com/in/rini-sengupta-70a15828b  
+**Email: arsia2008@gmail.com
 
 ---
 
