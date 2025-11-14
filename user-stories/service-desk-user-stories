@@ -1,0 +1,20 @@
+# Service Desk User Stories (ITSM)
+
+## Story 1: Create Incident
+As a user,
+I want to submit an issue,
+So that IT can resolve it quickly.
+
+### Acceptance Criteria
+- Mandatory fields: Category, Description, Impact
+- Ticket number assigned automatically
+
+---
+
+## Story 2: Track Incident
+As a user,
+I want to check my ticket status,
+So that I know the progress.
+
+### Acceptance Criteria
+- Status visible: Open, In Progress, Resolved
