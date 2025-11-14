@@ -1,0 +1,23 @@
+# Ecommerce User Stories
+
+## Story 1: Add to Cart
+As a customer,
+I want to add items to my cart,
+So that I can purchase multiple products at once.
+
+### Acceptance Criteria
+- User can click “Add to Cart”
+- Item appears in cart with correct quantity
+- Cart updates total price automatically
+
+---
+
+## Story 2: Checkout
+As a customer,
+I want to complete my purchase securely,
+So that I can receive my items.
+
+### Acceptance Criteria
+- User can enter shipping details
+- Payment gateway processes the payment
+- Confirmation email is sent
