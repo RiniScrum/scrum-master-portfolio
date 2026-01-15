@@ -53,6 +53,7 @@ Java, Spring Boot, Microservices, Hibernate, SQL, Docker, Jenkins, AWS,
 Datadog, Dynatrace, Splunk, Jira, Confluence, Agile/Scrum
 
 ---
+## Real Delivery Scenario
 
 ### Urgent Apple Pay Change Request Mid-Sprint
 - Used velocity and capacity data to explain sprint constraints  
