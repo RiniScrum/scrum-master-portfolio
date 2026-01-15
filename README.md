@@ -24,61 +24,19 @@ I am an Agile practitioner with hands-on experience facilitating Scrum ceremonie
 
 ## 📁 Portfolio Sections
 
-### ▶️ 1. [User Stories & Backlog Samples](./user-stories/)
-Examples include:
-- Ecommerce user stories  
-- Service workflow stories  
-- Definition of Ready & Definition of Done  
-- Acceptance criteria (Gherkin format)
+### ▶️ 1. Case Studies
+- Payment Platform
+- Cart & Checkout
+- Patient Health System
+- Shelter & Rescue
+---
+### ▶️ 3.. Case Studies
+
 
 ---
 
-### ▶️ 2. [Scrum Artifacts](./scrum-artifacts/)
-- Sprint backlog samples  
-- Sprint Goal examples  
-- Burndown charts  
-- Velocity tracking  
-- Release planning notes  
-
----
-
-### ▶️ 3. [Agile Templates](./templates/)
-Reusable templates including:
-- Retrospective templates  
-- RAID log  
-- Daily Scrum guide  
-- Sprint Planning checklist  
-- Stakeholder communication plan  
-
----
-
-### ▶️ 4. [Process Improvements](./process-improvements/)
-Case studies that showcase improvements such as:
-- Reducing cycle time  
-- Improving team throughput  
-- Enhancing transparency and reporting  
-- Streamlining communication between teams  
-
----
-
-### ▶️ 5. [Projects](./projects/)
-Documents describing:
-- Business context  
-- My role & responsibilities  
-- Tools used (Jira, ADO, Confluence, Miro, ServiceNow)  
-- Team setup  
-- Delivery outcomes  
-- Key wins & learnings  
-
----
-
-### ▶️ 6. [Certifications](./certifications/)
-- CSM / PSM  
-- ITIL / ITSM  
-- SAFe (if applicable)  
-- Jira or Azure DevOps training  
-- ServiceNow training (if applicable)
-
+### ▶️ 6. Certifications
+- CSM
 ---
 
 ## 📊 Tools & Platforms
