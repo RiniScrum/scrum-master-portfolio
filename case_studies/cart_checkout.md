@@ -1,4 +1,4 @@
-📌 #Project 2: Cart & Checkout Platform
+📌 # Project 2: Cart & Checkout Platform
 
 ##Case Study Title
 
