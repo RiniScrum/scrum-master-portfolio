@@ -1,37 +1,48 @@
-📌 Project 3: Patient Health Management System
+# 📌 Project 3: Patient Health Management System
 
-Case Study Title
+## Case Study Title
+**Delivering Agile in a Regulated Healthcare Environment**
 
-Delivering Agile in a Regulated Healthcare Environment
+---
 
-Context
-	•	Domain: Healthcare / Patient Systems
-	•	Teams: 4 cross-functional teams
-	•	Constraints: Compliance, audit, data security
+## Context
+- **Domain:** Healthcare / Patient Systems  
+- **Teams:** 4 cross-functional Scrum teams  
+- **Constraints:** Regulatory compliance, audits, data security  
 
-Challenges
-	•	Heavy documentation requirements
-	•	Frequent regulatory changes
-	•	Agile skepticism from stakeholders
+---
 
-Scrum Master Actions
-	•	Tailored Scrum ceremonies to include compliance reviews
-	•	Worked with PO to balance Agile delivery with documentation
-	•	Educated stakeholders on Agile governance
-	•	Ensured traceability without slowing delivery
+## Challenges
+- Heavy documentation and audit requirements  
+- Frequent regulatory changes impacting scope and timelines  
+- Initial Agile skepticism from business and compliance stakeholders  
 
-Metrics Used
-	•	Delivery predictability
-	•	Defect escape rate
-	•	Release readiness
+---
 
-Outcomes
-	•	Predictable audit-ready releases
-	•	Improved trust in Agile delivery
-	•	Reduced late-stage compliance rework
+## Scrum Master Actions
+- Tailored **Scrum ceremonies** to include compliance and audit checkpoints  
+- Partnered with the **Product Owner** to balance Agile delivery with documentation needs  
+- Educated stakeholders on **Agile governance** within regulated environments  
+- Ensured end-to-end **traceability** without slowing delivery velocity  
 
-Real Delivery Scenario
+---
 
-Regulatory change mid-release
-→ Facilitated backlog re-prioritization
-→ Maintained delivery transparency
+## Metrics Used
+- Delivery predictability  
+- Defect escape rate  
+- Release readiness indicators  
+
+---
+
+## Outcomes
+- Delivered **predictable, audit-ready releases**  
+- Improved stakeholder trust in Agile delivery  
+- Reduced late-stage compliance rework  
+
+---
+
+## Real Delivery Scenario
+
+### Regulatory Change Introduced Mid-Release
+- Facilitated backlog re-prioritization to incorporate mandatory changes  
+- Maintained delivery transparency and stakeholder alignment throughout the release  
