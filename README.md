@@ -12,7 +12,7 @@ I am a **Scrum Master & Technical Project Manager** with experience leading **en
 | Project | Description |
 |---------|-------------|
 | [Payment Platform – Multi-Vendor Integrations](./case_studies/payment_platform.md) | Retail payment platform integrating Chase, Orbital, Fiserv, Braintree; Scrum Master + Technical PM |
-| [Cart & Checkout Platform](./case-studies/cart-checkout.md) | High-traffic e-commerce checkout system; Scrum Master + Technical PM with production monitoring |
+| [Cart & Checkout Platform](./case_studies/cart_checkout.md) | High-traffic e-commerce checkout system; Scrum Master + Technical PM with production monitoring |
 | [Patient Health Management System](./case-studies/patient-health.md) | Regulated healthcare system; audit-ready releases; Scrum Master + Technical PM |
 | [Shelter Management System](./case-studies/shelter-management.md) | Mission-driven non-profit platform; MVP delivery; Scrum Master + Technical PM |
 
