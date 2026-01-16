@@ -1,61 +1,29 @@
-# Rini – Scrum Master & Agile Practitioner Portfolio
-
-Welcome to my Scrum Master & Agile Delivery portfolio.  
-This repository highlights my skills in Agile frameworks, Scrum practices, servant leadership, and supporting teams in delivering high-quality, customer-focused outcomes.
+# Rini Sengupta – Scrum Master & Technical Project Manager Portfolio
 
 ---
 
-## 📌 About Me
-
-I am an Agile practitioner with hands-on experience facilitating Scrum ceremonies, improving team delivery processes, managing cross-functional collaboration, and supporting end-to-end digital transformation programs. I focus on creating a positive team culture, removing impediments, and enabling continuous improvement.
-
-**Key Strengths:**
-- Scrum, Kanban, Agile delivery
-- Facilitating ceremonies (Daily Scrum, Sprint Planning, Review, Retro)
-- Writing user stories & acceptance criteria
-- Coordinating cross-functional teams
-- Driving adoption of digital processes
-- Performance & delivery metrics (burndown, velocity, cycle time)
-- Stakeholder communication & reporting
-- Risk/issue management (RAID logs)
-- Change management and team coaching
+## About Me
+I am a **Scrum Master & Technical Project Manager** with experience leading **enterprise-scale and mission-driven platforms**. I specialize in **end-to-end Agile delivery, technical oversight, cross-team coordination, and measurable impact**, ensuring delivery quality, observability, and stakeholder alignment.
 
 ---
 
-## 📁 Portfolio Sections
+## Case Studies
 
-### ▶️ 1. Case Studies
-- Payment Platform
-- Cart & Checkout
-- Patient Health System
-- Shelter & Rescue
----
-### ▶️ 3.. Case Studies
-
+| Project | Description |
+|---------|-------------|
+| [Payment Platform – Multi-Vendor Integrations](./case-studies/payment-platform.md) | Retail payment platform integrating Chase, Orbital, Fiserv, Braintree; Scrum Master + Technical PM |
+| [Cart & Checkout Platform](./case-studies/cart-checkout.md) | High-traffic e-commerce checkout system; Scrum Master + Technical PM with production monitoring |
+| [Patient Health Management System](./case-studies/patient-health.md) | Regulated healthcare system; audit-ready releases; Scrum Master + Technical PM |
+| [Shelter Management System](./case-studies/shelter-management.md) | Mission-driven non-profit platform; MVP delivery; Scrum Master + Technical PM |
 
 ---
 
-### ▶️ 6. Certifications
-- CSM
----
-
-## 📊 Tools & Platforms
-
-- **Jira / Confluence**  
-- **ServiceNow**  
-- **MS Teams**  
-- **Slack**  
-- **SharePoint / Google Workspace**
+## Key Skills
+- **Agile & Scrum:** Facilitation, backlog refinement, retrospectives, sprint planning, cross-team dependencies  
+- **Technical PM:** Release planning, CI/CD, APIs, system integrations, monitoring, production observability  
+- **Tools & Platforms:** Jira, Confluence, Jenkins, Docker, AWS, Datadog, Dynatrace, Splunk  
+- **Metrics & Delivery:** Sprint predictability, defect reduction, cycle time, release confidence, stakeholder satisfaction  
 
 ---
 
-## 🤝 Let’s Connect
-
-If you would like to collaborate, discuss opportunities, or view more of my work, feel free to connect with me on:
-
-**LinkedIn: www.linkedin.com/in/rini-sengupta-70a15828b  
-**Email: arsia2008@gmail.com
-
----
-
-Thank you for visiting my portfolio!
+*All projects highlight **Scrum Master leadership + Technical PM ownership** with measurable outcomes, technical stack, and production monitoring expertise.*
