@@ -1,4 +1,4 @@
-# 📌 Project 2: Cart & Checkout - – High-Traffic E-commerce Core System
+# 📌 Project 2: Cart & Checkout - High-Traffic E-commerce Core System
 
 ## Case Study Title
 **Improving Checkout Stability and Release Confidence Using Scrum**
