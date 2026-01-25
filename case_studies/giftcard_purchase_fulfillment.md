@@ -1,4 +1,4 @@
-# 📌 Project 2: Gift Card Purchase & Fulfillment Flow
+# 📌 Gift Card Purchase & Fulfillment Flow
 
 ## Case Study Title
 **Building a Scalable, Event-Driven Gift Card Fulfillment Platform**
