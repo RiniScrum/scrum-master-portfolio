@@ -57,10 +57,10 @@ Technical Project Manager
 - Settlement: Final settlement occurs with each vendor, with reporting consolidated in a dashboard.
 ___
 ## Delivery & Governance Responsibilities
-	- Facilitated all Scrum ceremonies across 3 teams, including sprint planning, backlog refinement, retrospectives, and cross-team syncs.
-	- Managed cross-team and vendor dependencies, aligning internal sprint plans with external certification timelines.
-	- Applied data-driven sprint planning using velocity and capacity metrics to maintain predictable delivery.
-	- Governed change and release readiness, ensuring security, compliance, and operational checks were completed prior to production releases.
+- Facilitated all Scrum ceremonies across 3 teams, including sprint planning, backlog refinement, retrospectives, and cross-team syncs.
+- Managed cross-team and vendor dependencies, aligning internal sprint plans with external certification timelines.
+- Applied data-driven sprint planning using velocity and capacity metrics to maintain predictable delivery.
+- Governed change and release readiness, ensuring security, compliance, and operational checks were completed prior to production releases.
 
 ---
 ## Challenges
@@ -86,6 +86,7 @@ Datadog, Dynatrace, Splunk, Jira, Confluence, Agile/Scrum
 ## Real Delivery Scenario
 
 ### Urgent Apple Pay Change Request Mid-Sprint
-- Used velocity and capacity data to explain sprint constraints  
-- Collaborated with Product Owner to reprioritize the request for the next sprint  
-- Maintained sprint focus while preserving stakeholder trust  
+- Assessed sprint capacity using velocity trends and WIP limits to evaluate delivery risk and downstream impact on payment services.
+- Analyzed technical dependencies across Apple Pay integration, vendor certification timelines, and deployment windows.
+- Partnered with the Product Owner to re-sequence backlog items and schedule the change for the next sprint with proper validation.
+- Preserved sprint commitments while maintaining system stability and stakeholder confidence.
