@@ -1,4 +1,4 @@
-# 📌 Project 4:  Shelter Management System – Mission-Driven Non-Profit Platform
+# 📌 Shelter Management System – Mission-Driven Non-Profit Platform
 
 ## Case Study Title
 **Scaling Agile Delivery for a Mission-Driven Platform**
