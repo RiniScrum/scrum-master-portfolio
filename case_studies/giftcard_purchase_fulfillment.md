@@ -46,7 +46,7 @@ Technical Project Manager & Architect
 - Partnered with Product Owners and UX teams to ensure timely customer notifications and visibility of gift cards in user accounts.
 - Supported release planning, production readiness, and post-release monitoring.
 
---
+---
 
 ## Metrics & Outcomes
 - Enabled near-instant digital gift card delivery upon successful payment
