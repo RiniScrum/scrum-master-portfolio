@@ -3,7 +3,7 @@
 ---
 
 ## About Me
-I am a **Technical Project Manager && Architect** with experience leading **enterprise-scale and mission-driven platforms**. I specialize in **end-to-end SaaS Agile delivery, technical oversight, cross-team coordination, and measurable impact**, ensuring delivery quality, observability, and stakeholder alignment.
+I am a **Technical Project Manager & Architect** with experience leading **enterprise-scale and mission-driven platforms**. I specialize in **end-to-end SaaS Agile delivery, technical oversight, cross-team coordination, and measurable impact**, ensuring delivery quality, observability, and stakeholder alignment.
 
 ---
 
