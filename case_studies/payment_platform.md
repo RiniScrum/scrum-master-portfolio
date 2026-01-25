@@ -26,9 +26,10 @@ Technical Project Manager
 
 ---
 ## Key Responsibilities
-- Led end-to-end delivery of payment integrations across multiple Spring Boot microservices, ensuring consistent API contracts, error handling, and retry logic for vendor failures.
+- Led end-to-end design, development and delivery of payment integrations across multiple Spring Boot microservices, ensuring consistent API contracts, error handling, and retry logic for vendor failures.
 - Coordinated payment gateway integrations, including:
   - API onboarding and certification with vendors
+  - Handled Auth
   - Secure credential handling and tokenization workflows
   - Alignment on request/response schemas and SLA expectations
   - Guided design of stateless payment services with database persistence for transaction state, audit logging, and reconciliation.
@@ -51,10 +52,10 @@ Technical Project Manager
 ## Key Workflow
 - Checkout: The user enters payment info on the frontend.
 - Orchestration: The site sends payment details to a central API.
-- Routing: The Orchestrator decides, for example, to send a US transaction to Chase and a European transaction to Braintree.
+- Routing: The Orchestrator decides, for example, to send a US transaction to Chase or Braintree or Fiserv
 - Tokenization: The chosen gateway replaces sensitive card data with a secure token.
 - Authorization: The transaction is authorized via the card network.
-- Settlement: Final settlement occurs with each vendor, with reporting consolidated in a dashboard.
+- Settlement: Final settlement occurs with each vendor.
 ___
 ## Delivery & Governance Responsibilities
 - Facilitated all Scrum ceremonies across 3 teams, including sprint planning, backlog refinement, retrospectives, and cross-team syncs.
