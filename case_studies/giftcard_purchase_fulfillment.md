@@ -60,7 +60,7 @@ Technical Project Manager & Architect
 ## Key Responsibilities
 
 - Led cross-functional teams responsible for Order Service, Payment Integration, Gift Card Service, and Notification Service.
-- Did API development from scratch.
+- Did backend API design and development from scratch.
 - Facilitated Agile ceremonies and coordinated cross-team dependencies to support continuous delivery.
 - Defined end-to-end order lifecycle and state transitions (CREATED → PAID → ISSUED → COMPLETED) to ensure system clarity and observability.
 - Collaborated with architects and engineers to design an event-driven workflow enabling loose coupling and scalability.
