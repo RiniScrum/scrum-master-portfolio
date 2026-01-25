@@ -6,7 +6,7 @@
 ---
 
 ## Context
-- **Domain:** Non-profit / Animal Welfare  
+- **Domain:** Retail E-commerce
 - **Teams:** 1–2 small Scrum teams  
 - **Stakeholders:** NGOs, volunteers, operations teams  
 
@@ -14,8 +14,9 @@
 
 ## Project Overview
 
-Led Agile delivery of a Shelter Management System supporting animal rescue operations, volunteer coordination, and daily shelter workflows. 
-The focus was on delivering maximum impact with limited resources while maintaining team health and stakeholder alignment.
+Designed and delivered a Shelter Management System enabling animal rescue operations, volunteer coordination, and daily shelter workflows. 
+Implemented backend services, data models, and APIs to handle case management, scheduling, and operational reporting, ensuring scalability, 
+reliability, and maintainability while optimizing resource usage and system performance.
 
 ---
 
@@ -24,15 +25,47 @@ The focus was on delivering maximum impact with limited resources while maintain
 Technical Project Manager & Architect
 
 ---
+## Key Workflow – Wishlist, Checkout & Shelter Donation (GraphQL + Wizmo)
+
+- Wishlist Management
+ - Authenticated customer browses products and adds items to Wishlist Service.
+ - Wishlist Service persists items and metadata (product ID, quantity, shelter eligibility).
+- Wishlist to Checkout Transition
+ - Customer selects items from wishlist and moves them to checkout.
+ - Checkout Service retrieves wishlist items.
+ - Cart and pricing validations are applied before checkout initiation.
+- Checkout & Order Processing
+ - Checkout Service orchestrates:
+ - Pricing and tax calculation
+ - Inventory validation
+ - Payment authorization
+ - Successful payment triggers order creation and fulfillment workflow.
+- Donation Selection (Shelter Support)
+  - During checkout, customer selects an optional donation to a shelter.
+	- Donation amount and shelter details are captured as part of checkout context.
+	- Donation data is decoupled from core order flow to avoid checkout latency.
+- Donation Processing via GraphQL & Wizmo
+  - Donation Service invokes Wizmo integration using GraphQL queries.
+	- Wizmo processes the donation and returns transaction confirmation.
+	- Donation status is asynchronously updated to ensure checkout completion is not blocked.
+- Post-Checkout Updates
+  - Order Service completes order lifecycle.
+	- Wishlist items are removed or marked as purchased.
+	- Customer receives confirmation including:
+	  - Order details
+	  - Donation acknowledgment
+	  - Shelter information
+- Observability & Reliability
+  - Donation and checkout events logged and monitored via centralized logging.
+	- Retry and idempotency mechanisms ensure donation requests are not duplicated.
+  - Failures in donation flow do not impact order completion.
 
 ## Key Responsibilities
 
-- Led 1–2 small Scrum teams delivering a mission-critical platform for NGOs and volunteer-driven operations.
-- Simplified the Scrum framework to fit small, fast-moving teams with multiple responsibilities.
-- Defined and prioritized MVP scope, enabling incremental delivery of high-value features.
-- Balanced competing stakeholder requests with realistic capacity planning and roadmap transparency.
-- Enabled fast feedback loops by engaging end users and volunteers early and frequently.
-- Oversaw end-to-end delivery, including backlog management, release coordination, and stakeholder communication.
+- Developed backend services and APIs for a mission-critical NGO platform, focusing on reliability, scalability, and maintainability.
+- Implemented core business logic, persistence layers, and service integrations.
+- Diagnosed and resolved production issues, improving system robustness and user experience.
+- Participated in release execution and post-deployment validation.
 
 ---
 
@@ -50,9 +83,3 @@ Technical Project Manager & Architect
 - Maintained high team engagement and morale  
 
 ---
-
-## Real Delivery Scenario
-
-### Conflicting Stakeholder Requests
-- Facilitated a structured priority workshop  
-- Achieved alignment while protecting team capacity and delivery focus  
