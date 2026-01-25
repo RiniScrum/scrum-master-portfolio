@@ -1,4 +1,4 @@
-# 📌 Project 1: Payment Platform – Multi-Vendor Payment Integrations (Retail Client)
+# 📌 Payment Platform – Multi-Vendor Payment Integrations (Retail Client)
 
 ## Case Study Title
 **Designing and Delivering a Scalable, Multi-Vendor Payment Integration Platform**
