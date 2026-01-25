@@ -1,9 +1,9 @@
-# Rini Sengupta – Technical Project Manager | Architect Portfolio
+# Rini Sengupta –  Architect / Technical Project Manager Portfolio
 
 ---
 
 ## About Me
-I am a **Technical Project Manager && Architect** with experience leading **enterprise-scale and mission-driven platforms**. I specialize in **end-to-end Agile delivery, technical oversight, cross-team coordination, and measurable impact**, ensuring delivery quality, observability, and stakeholder alignment.
+I am a **Technical Project Manager && Architect** with experience leading **enterprise-scale and mission-driven platforms**. I specialize in **end-to-end SaaS Agile delivery, technical oversight, cross-team coordination, and measurable impact**, ensuring delivery quality, observability, and stakeholder alignment.
 
 ---
 
@@ -19,9 +19,10 @@ I am a **Technical Project Manager && Architect** with experience leading **ente
 ---
 
 ## Key Skills
+- **Technical Skills:** Java, Python, Spring Boot, Microservices,Graphql, Micronaut
+- **Tools & Platforms:** Jira, Confluence, Jenkins, Docker, AWS(Lambda, ECS, EKS, Kafka, API Gateway, Redis), Datadog, Dynatrace, Splunk
 - **Agile & Scrum:** Facilitation, backlog refinement, retrospectives, sprint planning, cross-team dependencies  
-- **Technical PM:** Release planning, CI/CD, APIs, system integrations, monitoring, production observability  
-- **Tools & Platforms:** Jira, Confluence, Jenkins, Docker, AWS, Datadog, Dynatrace, Splunk  
+- **Technical PM:** Release planning, CI/CD, APIs, system integrations, monitoring, production observability
 - **Metrics & Delivery:** Sprint predictability, defect reduction, cycle time, release confidence, stakeholder satisfaction  
 
 ---
