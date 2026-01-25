@@ -1,15 +1,16 @@
 # 📌 Project 1: Payment Platform – Multi-Vendor Payment Integrations (Retail Client)
 
 ## Case Study Title
-**Enabling Predictable Delivery for Multi-Channel Payment Integrations**
+**Designing and Delivering a Scalable, Multi-Vendor Payment Integration Platform**
 
 ---
 
 ## Context
-- Domain: E-commerce / Payments  
+- Domain: Retail E-commerce 
 - Teams: 3 Scrum teams (Backend, Integration, QA)  
 - Environment: Java, Spring Boot, Microservices, AWS  
-- Delivery Model: Scrum with external dependencies  
+- Delivery Model: Scrum with external dependencies
+- Transaction Types: Credit Card, Gift Card, PayPal, Apple Pay
 
 ---
 
@@ -21,18 +22,47 @@ supporting Gift Card, Credit Card, PayPal, and Apple Pay transactions.
 ---
 ## Role
 
-Scrum Master & Technical Project Manager
+Technical Project Manager
 
 ---
 ## Key Responsibilities
-- Led 3 cross-functional Scrum teams (Backend, Integration, QA) delivering complex third-party payment integrations.
-- Facilitated Scrum ceremonies, backlog refinement, sprint planning, and cross-team dependency management.
-- Managed vendor integrations (Chase, Orbital, Fiserv, Braintree), coordinating API readiness, certification timelines, and external dependencies.
-- Oversaw end-to-end technical delivery, including API integrations, database changes, CI/CD pipelines (Jenkins), containerized deployments (Docker), and production readiness.
-- Monitored service health and production stability using Datadog, Dynatrace, and Splunk logs to ensure services were up, performant, and error-free during releases.
-- Protected sprint scope while handling urgent mid-sprint payment change requests through data-driven prioritization and clear stakeholder communication.
+- Led end-to-end delivery of payment integrations across multiple Spring Boot microservices, ensuring consistent API contracts, error handling, and retry logic for vendor failures.
+- Coordinated payment gateway integrations, including:
+	•	API onboarding and certification with vendors
+	•	Secure credential handling and tokenization workflows
+	•	Alignment on request/response schemas and SLA expectations
+	•	Guided design of stateless payment services with database persistence for transaction state, audit logging, and reconciliation.
+	•	Oversaw CI/CD pipelines using Jenkins for automated builds, test execution, and deployments across non-prod and production environments.
+	•	Supported containerized deployments using Docker to ensure environment consistency and faster release cycles.
+	•	Partnered with architects and engineers to ensure idempotency, rollback safety, and graceful degradation during vendor outages.
+	•	Actively monitored production health using Datadog, Dynatrace, and Splunk:
+	•	API latency and error rates
+	•	Payment failure trends
+	•	Post-release validation and incident triage
+	•	Worked closely with Product Owners to translate payment business rules into technically feasible user stories and acceptance criteria.
 ---
+## Multi-Vendor Component Breakdown
+- Payment Orchestrator (Central Layer): This is the core engine that receives the transaction, analyzes it, and determines whether to send it to Chase, Fiserv, or Braintree based on predefined rules.
+- Chase Orbital: Used as a primary gateway for high-volume, secure card-not-present transactions. It connects directly to the Chase Paymentech/Salem platform.
+- Braintree: Utilized for specialized payment methods (PayPal, Venmo) or international transactions.
+- Fiserv: Integrated for specific e-commerce needs, tokenization, or, in many cases, as the backend processor for the other gateways.
+- Tokenization & Security: Each provider (Chase, Fiserv, Braintree) vaults payment data separately, allowing them to secure the data before processing, which reduces PCI compliance scope.
+---
+## Key Workflow
+- Checkout: The user enters payment info on the frontend.
+- Orchestration: The site sends payment details to a central API.
+- Routing: The Orchestrator decides, for example, to send a US transaction to Chase and a European transaction to Braintree.
+- Tokenization: The chosen gateway replaces sensitive card data with a secure token.
+- Authorization: The transaction is authorized via the card network.
+- Settlement: Final settlement occurs with each vendor, with reporting consolidated in a dashboard.
+___
+## Delivery & Governance Responsibilities
+	- Facilitated all Scrum ceremonies across 3 teams, including sprint planning, backlog refinement, retrospectives, and cross-team syncs.
+	- Managed cross-team and vendor dependencies, aligning internal sprint plans with external certification timelines.
+	- Applied data-driven sprint planning using velocity and capacity metrics to maintain predictable delivery.
+	- Governed change and release readiness, ensuring security, compliance, and operational checks were completed prior to production releases.
 
+---
 ## Challenges
 - Multiple payment providers with different APIs  
 - Security, compliance, and certification timelines  
@@ -49,7 +79,7 @@ Scrum Master & Technical Project Manager
 ---
 
 ## Tools & Tech Stack
-Java, Spring Boot, Microservices, Hibernate, SQL, Docker, Jenkins, AWS,
+Java, Spring Boot, Microservices, Hibernate, SQL, Docker, Jenkins, AWS, Postgres,
 Datadog, Dynatrace, Splunk, Jira, Confluence, Agile/Scrum
 
 ---
