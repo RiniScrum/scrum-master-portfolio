@@ -1,4 +1,4 @@
-# Rini Sengupta – Technical Project Manager Portfolio
+# Rini Sengupta – Technical Project Manager | Architect Portfolio
 
 ---
 
