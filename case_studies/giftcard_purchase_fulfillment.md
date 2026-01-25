@@ -24,6 +24,29 @@ The solution integrated order management, payment processing, gift card issuance
 Technical Project Manager & Architect
 
 ---
+## Key Workflow
+
+### End-to-End Flow
+ - Order Creation
+  - Customer initiates gift card purchase
+  - Order Service creates order in CREATED state
+ - Payment Processing
+  - Order Service invokes Payment Service
+	- Payment Service authorizes and captures payment
+	- On success, emits PAYMENT_COMPLETED event
+ - Fulfillment & Order Processing (FedEx Integration)
+  - Order Service sends fulfillment request to FedEx Order Processing API
+	- FedEx processes order details for fulfillment tracking and downstream reconciliation
+	- FedEx returns fulfillment acknowledgment and tracking reference
+	- Order Service updates fulfillment status asynchronously
+ - Customer Notification
+  - Notification Service listens for GIFT_CARD_ISSUED and fulfillment events
+	- Sends confirmation email and updates customer account with fulfillment status
+ - Order Completion
+  - Order Service transitions order to COMPLETED
+	- System achieves eventual consistency across Order, Payment, Gift Card, and FedEx systems
+
+---
 
 ## Challenges
 - Coordinating multiple distributed services (order, payment, gift card, notification)
