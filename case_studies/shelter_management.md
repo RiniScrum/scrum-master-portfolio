@@ -21,7 +21,7 @@ The focus was on delivering maximum impact with limited resources while maintain
 
 ## Role
 
-Scrum Master & Technical Project Manager
+Technical Project Manager & Architect
 
 ---
 
