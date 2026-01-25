@@ -1,12 +1,12 @@
 # 📌 Cart & Checkout - High-Traffic E-commerce Core System
 
 ## Case Study Title
-**Improving Checkout Stability and Release Confidence Using Scrum**
+**Improving Checkout Stability and Release Confidence**
 
 ---
 
 ## Context
-- **Domain:** E-commerce Core Platform  
+- **Domain:** Retail E-Commerce  
 - **Teams:** 2 Scrum teams  
 - **Users:** High-traffic transactional flows  
 
@@ -21,9 +21,32 @@ stability, performance, and release confidence.
 
 ## Role
 
-Scrum Master & Technical Project Manager
+Technical Project Manager & Architect
 
 ---
+
+## End to End Checkout Flow
+End-to-End Checkout Flow
+
+- Cart Management
+ - Customer adds/updates items in cart
+ - Cart Service calculates totals and validates pricing rules
+- Checkout Initiation
+ - Checkout Service validates cart, user, shipping, and payment details
+ - Inventory Service reserves stock to prevent overselling
+- Pricing & Promotions
+ - Pricing Service applies discounts, promotions, taxes, and fees
+ - Checkout Service validates final payable amount
+- Payment Processing
+ - Checkout Service invokes external Payment Gateway
+ - Payment is authorized and captured
+ - On success, transaction status is returned to Checkout Service
+- Order Creation
+ - Order Service creates order and persists transactional state
+ - Cart is cleared post successful order creation
+- Post-Checkout Monitoring
+ - Checkout and order metrics published to monitoring tools
+ - Alerts triggered for latency, error rates, or payment failures
 
 ## Key Responsibilities
 
@@ -57,9 +80,3 @@ Java, Spring Boot, Microservices, SQL, Docker, Jenkins, AWS,
 Datadog, Dynatrace, Splunk, Jira, Confluence, Agile/Scrum
 
 ---
-
-## Real Delivery Scenario
-
-### Production Issue During Sprint
-- Facilitated sprint re-planning to address the production issue without disrupting team morale  
-- Ensured transparency and clear communication with stakeholders regarding impact and resolution  
