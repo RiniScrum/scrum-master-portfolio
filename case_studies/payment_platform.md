@@ -28,18 +28,18 @@ Technical Project Manager
 ## Key Responsibilities
 - Led end-to-end delivery of payment integrations across multiple Spring Boot microservices, ensuring consistent API contracts, error handling, and retry logic for vendor failures.
 - Coordinated payment gateway integrations, including:
-	•	API onboarding and certification with vendors
-	•	Secure credential handling and tokenization workflows
-	•	Alignment on request/response schemas and SLA expectations
-	•	Guided design of stateless payment services with database persistence for transaction state, audit logging, and reconciliation.
-	•	Oversaw CI/CD pipelines using Jenkins for automated builds, test execution, and deployments across non-prod and production environments.
-	•	Supported containerized deployments using Docker to ensure environment consistency and faster release cycles.
-	•	Partnered with architects and engineers to ensure idempotency, rollback safety, and graceful degradation during vendor outages.
-	•	Actively monitored production health using Datadog, Dynatrace, and Splunk:
-	•	API latency and error rates
-	•	Payment failure trends
-	•	Post-release validation and incident triage
-	•	Worked closely with Product Owners to translate payment business rules into technically feasible user stories and acceptance criteria.
+  - API onboarding and certification with vendors
+  - Secure credential handling and tokenization workflows
+  - Alignment on request/response schemas and SLA expectations
+  - Guided design of stateless payment services with database persistence for transaction state, audit logging, and reconciliation.
+  - Oversaw CI/CD pipelines using Jenkins for automated builds, test execution, and deployments across non-prod and production environments.
+  - Supported containerized deployments using Docker to ensure environment consistency and faster release cycles.
+  - Partnered with architects and engineers to ensure idempotency, rollback safety, and graceful degradation during vendor outages.
+  - Actively monitored production health using Datadog, Dynatrace, and Splunk:
+  - API latency and error rates
+  - Payment failure trends
+  - Post-release validation and incident triage
+  - Worked closely with Product Owners to translate payment business rules into technically feasible user stories and acceptance criteria.
 ---
 ## Multi-Vendor Component Breakdown
 - Payment Orchestrator (Central Layer): This is the core engine that receives the transaction, analyzes it, and determines whether to send it to Chase, Fiserv, or Braintree based on predefined rules.
