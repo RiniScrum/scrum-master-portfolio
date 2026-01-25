@@ -21,7 +21,7 @@ The solution integrated order management, payment processing, gift card issuance
 
 ## Role
 
-Technical Project Manager
+Technical Project Manager & Architect
 
 ---
 
